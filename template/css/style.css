@@ -1,0 +1,30 @@
+html {
+  font-family: Verdana;
+}
+header {
+  color: #cdcdcd;
+  background-color: #333333;
+  min-height: 150px;
+}
+header a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+header a:hover {
+  color: silver;
+}
+header #logo {
+  font-size: 32px;
+  display: inline;
+  text-align: left;
+}
+nav ul {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+nav ul li {
+  display: inline;
+}
+/* GRID */
+
