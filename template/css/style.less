@@ -1,11 +1,7 @@
-html {
-	font-family: Verdana;
-}
-
 header {
+
 	color: #cdcdcd;
 	background-color: #333;
-	min-height: 150px;
 
 	a {
 		color: #f0f0f0;
@@ -16,25 +12,68 @@ header {
 		color: #c0c0c0;
 	}
 
-	#logo {
-		font-size: 32px;
-		display: inline;
-		text-align: left;
+	h1 {
+
+		margin: 0;
+
+		a {
+			display: inline;			
+			line-height: 48px;
+		}
+
 	}
 
-}
+	nav {
+			position: absolute;
+			top:0;
+			right: 0;
 
-nav {
+		ul {
 
-	ul {
-		position: absolute;
-		right: 0;
-		top: 0;
 
-		li {
-			display: inline;
+			margin:0;
+			padding: 0;
+
+			li {
+				display: inline;
+				line-height: 48px;
+
+				a {
+					padding:0 0.5em;
+					margin:0 0.3em;
+				}
+
+			}
 		}
 	}
+
 }
 
-/* GRID */
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+}
+
